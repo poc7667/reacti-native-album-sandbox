@@ -12,6 +12,7 @@ import {
   View
 } from 'react-native';
 import Header from './src/components/header'
+import AlbumList from "./src/components/AlbumList";
 
 
 export default class AwesomeProject extends Component {
@@ -19,16 +20,17 @@ export default class AwesomeProject extends Component {
     return (
       <View style={styles.container}>
         <Header headerText={'Poc Albums'} />
-        <Text style={styles.welcome}>
-          Welcome to Birch Word!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <AlbumList/>
+        {/*<Text style={styles.welcome}>*/}
+          {/*Welcome to Birch Word!*/}
+        {/*</Text>*/}
+        {/*<Text style={styles.instructions}>*/}
+          {/*To get started, edit index.ios.js*/}
+        {/*</Text>*/}
+        {/*<Text style={styles.instructions}>*/}
+          {/*Press Cmd+R to reload,{'\n'}*/}
+          {/*Cmd+D or shake for dev menu*/}
+        {/*</Text>*/}
       </View>
     );
   }
