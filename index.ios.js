@@ -11,7 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
-
+import Header from './src/components/header'
 
 
 export default class AwesomeProject extends Component {
